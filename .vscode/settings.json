@@ -1,3 +1,8 @@
 {
-    "deno.enable": true
+    "deno.enable": true,
+    "deno.suggest.imports.autoDiscover": true,
+    "deno.suggest.imports.hosts": {
+        "https://deno.land": true
+    },
+    "deno.codeLens.implementations": true,
 }
